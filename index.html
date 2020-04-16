@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Masteralb</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="mainContainer">
+        <header>
+            <img class="img-opacity" src="css/img/123.png" alt="">
+        </header>
+        <main>
+            <div class="column">
+                <div>
+                    <span class="text-title">Register Form</span>
+                    <div class="form01">
+                        <form action="#">
+                            <div class="form01__row">
+                                <div class="form01__div-icon"><img class="form01__img-icon" src="img/glyphicons_003_user.png" alt="">
+                                </div> <input class="form01__input" type="text" name="username" placeholder="Username" value="">
+                            </div>
+                            <div class="form01__row">
+                                <div class="form01__div-icon"><img class="form01__img-icon" src="img/glyphicons_203_lock.png" alt="">
+                                </div> <input class="form01__input" type="password" name="password" placeholder="Password" value="">
+                            </div>
+                            <div class="form01__row">
+                                <div class="form01__div-icon"><img class="form01__img-icon" src="img/glyphicons_203_lock.png" alt="">
+                                </div> <input class="form01__input" type="password" name="confirmPass" placeholder="Confirm Password" value="">
+                            </div>
+                            <div class="form01__row">
+                                <div class="form01__div-icon"><img class="form01__img-icon" src="img/glyphicons_010_envelope.png" alt="">
+                                </div> <input class="form01__input" type="email" name="email" placeholder="Email" value="">
+                            </div>
+                            <div class="form01__row">
+                                <div class="form01__div-icon"><img class="form01__img-icon" src="img/glyphicons_242_google_maps.png" alt="">
+                                </div>
+                                <select class="form01__select" name="yourLocation" required>
+                                    <option class="form01__option" value="" disabled selected hidden>Your Location</option>
+                                    <option class="form01__option">Poland</option>
+                                    <option class="form01__option">USA</option>
+                                </select>
+                            </div>
+                            <div class="form01__checkbox-container">
+                                <label class="container">I have read and accept the terms of use.
+                                    <input type="checkbox">
+                                    <div class="checkmark"></div>
+                                </label>
+                            </div>
+                            <input class="form01__button" type="submit" value="Sign up">
+                        </form>
+                    </div>
+                </div>
+                <div>
+                    <span class="text-title">Send Email</span>
+                    <div class="form01">
+                        <form action="#">
+                            <div class="form01__row">
+                                <div class="form01__div-icon">
+                                    <img class="form01__img-icon" src="img/glyphicons_003_user.png" alt="">
+                                </div>
+                                <input class="form01__input" type="text" name="username" placeholder="Your Name" value="">
+                            </div>
+                            <div class="form01__row">
+                                <div class="form01__div-icon">
+                                    <img class="form01__img-icon" src="img/glyphicons_010_envelope.png" alt="">
+                                </div> 
+                                <input class="form01__input" type="email" name="email" placeholder="Your Email" value="">
+                            </div>
+                            <div class="form01__row form01__row--textarea">
+                    
+                                <textarea class="form01__textarea" type="text" name="message" placeholder="Type your message ..." value=""></textarea>
+                    
+                            </div>
+                            <div class="form01__checkbox-container">
+                                <label class="container">Send a copy to my Email
+                                    <input type="checkbox">
+                                    <div class="checkmark"></div>
+                                </label>
+                            </div>
+                            <input class="form01__button" type="submit" value="Send Email">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div>
+                    <span class="text-title">Sign in Form</span>
+                    <div class="form01">
+                        <form action="#">
+                            <div class="form01__row">
+                                <div class="form01__div-icon"><img class="form01__img-icon" src="img/glyphicons_003_user.png" alt="">
+                                </div> <input class="form01__input" type="text" name="username" placeholder="Username" value="">
+                            </div>
+                            <div class="form01__row">
+                                <div class="form01__div-icon"><img class="form01__img-icon" src="img/glyphicons_203_lock.png" alt="">
+                                </div> <input class="form01__input" type="password" name="password" placeholder="Password" value="">
+                            </div>
+                            <div class="form01__bottom-container">
+                                <label class="container">Remember me
+                                    <input type="checkbox">
+                                    <div class="checkmark"></div>
+                                </label>
+                                <input class="form01__button form01__button--send" type="submit" value="Sign In">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div>
+                    <span class="text-title">Recover Form</span>
+                    <div class="form01">
+                        <form action="#">
+                            <div class="form01__row">
+                                <div class="form01__div-icon"><img class="form01__img-icon" src="img/glyphicons_010_envelope.png" alt="">
+                                </div> <input class="form01__input" type="email" name="email" placeholder="Enter your Email" value="">
+                            </div>
+                            <div class="form01__row">
+                                <div class="form01__div-icon"><img class="form01__img-icon" src="img/glyphicons_139_phone.png" alt="">
+                                </div> <input class="form01__input" type="text" name="email"  placeholder="Enter your Phone number" value="">
+                            </div>
+                            <div class="form01__bottom-container">
+                                <input class="form01__button  form01__button--short" type="submit" value="Send">
+                                <input class="form01__button form01__button--unactive" type="submit" value="Done">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div>
+                    <span class="text-title">Subscribe Form</span>
+                    <div class="form01">
+                        <form action="#">
+                            <div class="form01__row">
+                                <div class="form01__div-icon"><img class="form01__img-icon" src="img/glyphicons_010_envelope.png" alt="">
+                                </div> <input class="form01__input" type="email" name="email" placeholder="Enter your Email" value="">
+                            </div>
+                            <div class="form01__bottom-container">
+                                <input class="form01__button form01__button--short" type="submit" value="Subscribe">
+                                <input class="form01__button form01__button--cancel" type="submit" value="No, Thanks">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <img class="img-opacity" src="img/bottom-right-logo-masteralb.png" alt="">
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
